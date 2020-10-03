@@ -2,8 +2,8 @@
 - Prueba 1
 
 
-www.apple.com -> 1205 (DNS sv103)
-www.linux.org -> 1205 (DNS sv103)
+www.apple.com -> 5205 (DNS sv503)
+www.linux.org -> 5205 (DNS sv503)
 
-www.ibm.com -> sv106 (DNS sv110)
-www.support.ibm.com -> sv108 (DNS sv113)
+www.ibm.com -> sv506 (DNS sv510)
+www.support.ibm.com -> sv508 (DNS sv513)
