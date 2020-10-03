@@ -1,0 +1,17 @@
+$TTL    60000
+@               IN      SOA     sv110.ibm.com.    root.sv110.ibm.com. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv110.ibm.com.
+sv110           IN      A       101.1.4.3
+
+sv108           IN      A       101.1.4.5
+www             IN      CNAME   sv108
+
+support        IN      NS      sv113.support.ibm.com.
+sv113.support  IN      A       201.1.64.3
